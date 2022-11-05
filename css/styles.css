@@ -125,6 +125,8 @@ body {
 }
 
 .contact {
+  display: flex;
+  align-items: center;
   color: var(--main-color);
   font-style: normal;
   font-weight: 500;
@@ -299,9 +301,12 @@ body {
 }
 
 .advantage-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--eighth-color);
+  padding: 25px 10px;
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 }
 
@@ -353,7 +358,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
-  padding-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -377,8 +382,8 @@ body {
 .member-role {
   font-size: 16px;
   line-height: 1.18;
-  padding-bottom: 30px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .member-card {
@@ -387,11 +392,14 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.member-footer {
+padding: 30px 10px ;
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  padding-bottom: 30px;
+ 
 }
 
 .social-item {
@@ -512,6 +520,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .project-type {
