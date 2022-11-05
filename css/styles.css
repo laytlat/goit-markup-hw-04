@@ -393,13 +393,12 @@ body {
 }
 
 .member-footer {
-padding: 30px 10px ;
+  padding: 30px 10px;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
- 
 }
 
 .social-item {
